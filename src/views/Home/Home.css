@@ -1,0 +1,23 @@
+.Heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(210, 160, 94);
+    padding: 10px;
+}
+.add-btn{
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+    background-color: aliceblue;
+    border-radius: 50%;
+
+}
+body{
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdcymLVAKLbV8Nk_xQQCHHhVpHkxG9uwWvg&s");
+    background-repeat: no-repeat;
+    height: 100vh; */
+    background-color: rgb(174, 164, 156);
+}
