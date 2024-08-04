@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import "./Home.css"
-import PlantCard from "./../../components/PlantCard/PlantCard"
+import PlantCard from "./../../components/PlantCard/PlantCard.js"
 import axios from "axios"
 import toast,{Toaster} from 'react-hot-toast'
 import ImgAdd from "./add.png"

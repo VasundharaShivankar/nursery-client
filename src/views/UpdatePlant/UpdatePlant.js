@@ -93,7 +93,6 @@ function UpdatePlant() {
         </form>  
         <Link to="/">Show all palnts</Link>   
     </div>
-
   )
 }
 

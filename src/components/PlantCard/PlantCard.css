@@ -30,9 +30,7 @@
     border-radius: 20px;
 }
 .card{
-    align-items: flex-start;
-    /* background-color: rgb(234, 216, 186);   */
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQySMnJD1S-Tpfjn_m35u70Djpcg0KdFcqxw&s");
+    background-image: url("");
     padding-left: 32%;  
 }
 .plant-card-btnn{

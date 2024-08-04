@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Home from "./views/Home/Home"
+import Home from "./views/Home/Home.js"
 import {Toaster} from 'react-hot-toast'
-import AddPlant from './views/AddPlant/AddPlant';
-import UpdatePlant from './views/UpdatePlant/UpdatePlant';
+import AddPlant from './views/AddPlant/AddPlant.js';
+import UpdatePlant from './views/UpdatePlant/UpdatePlant.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
