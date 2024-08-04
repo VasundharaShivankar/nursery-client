@@ -50,7 +50,7 @@ function UpdatePlant() {
 
   return (
     <div>
-      <h1>Update Plant</h1>
+      <h1 className='heading1'>Update Plant</h1>
       <form className='form'>
             <input 
                 type='text'
@@ -89,9 +89,9 @@ function UpdatePlant() {
                 className='input-plant'
             />
 
-            <button type='button' className='ad'>Update Plant</button>
+            <button type='button' className='add'>Update Plant</button>
         </form>  
-        <Link to="/">Show all palnts</Link>   
+        <Link to="/" className='link'>Show all palnts</Link>   
     </div>
   )
 }

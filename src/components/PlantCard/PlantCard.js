@@ -13,14 +13,13 @@ function PlantCard({_id, name, category, image, price, description, loadPlants})
     loadPlants()
 }
   return (
-    <div className='card'>
-      <div>
+    <div className='body'>
       <div className='plant-card'>
         <h1 className='plant-title'>{name}</h1>
         <p className='plant-price'>Price: {price}</p>
         <img src={image} className='plant-card-img'/>
 
-        <div>
+        <div className='button-container'>
           <Link to={`/update/${_id}`}>
               <button type='button' className='plant-card-btnn'>EDIT</button>
           </Link>
@@ -32,7 +31,7 @@ function PlantCard({_id, name, category, image, price, description, loadPlants})
               deletePlant(_id)
             }}>DELETE</button>
         </div>
-      </div></div>
+      </div>
       <toaster/>
     </div>
   )

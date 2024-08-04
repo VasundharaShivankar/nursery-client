@@ -5,7 +5,7 @@ import Home from "./views/Home/Home.js"
 import {Toaster} from 'react-hot-toast'
 import AddPlant from './views/AddPlant/AddPlant.js';
 import UpdatePlant from './views/UpdatePlant/UpdatePlant.js';
-
+import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
